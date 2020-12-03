@@ -10,15 +10,7 @@ module.exports = class Leaderboard extends commando.Command {
             description: 'Shows the metalcupcake5 leaderboard on AoC',
             details: "Every year there's an event called [Advent of Code](https://adventofcode.com)" +
                 "",
-            examples: ['aoc lb'],
-            args: [
-                {
-                    key: 'test',
-                    label: 'test',
-                    prompt: 'test',
-                    type: 'float'
-                }
-            ]
+            examples: ['aoc lb']
         });
     }
 
